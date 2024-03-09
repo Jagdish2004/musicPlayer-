@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-bajaoGaane</title>
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="flex">
+    <div class="left ">
+        <div class="menu">
+        <div class="explore">
+        <div class="slogo">
+          <img class="invert" src="spotifylogo.svg" alt="">
+        </div>
+        <div class="home flex">
+            <i class="fa-solid fa-house"></i>
+            <p>Home</p>
+        </div>
+        <div class="search flex">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <p> Search</p>
+        </div>
+    </div>
+
+    <div class="library explore flex wrap">
+        <div class="libraryIcons">
+        <img class="invert" src="library.svg" alt="">
+        <h5>   Your Library</h5>
+       </div>
+        <div class="songlist">
+             
+        </div>
+    </div>
+</div>
+
+
+    <div class="footer flex wrap">
+     
+        <a href="https://www.spotify.com/legal">legal</a>
+        <a href="https://www.spotify.com/privacy-policy">privacy policy</a>
+        <a href="https://www.spotify.com/privacy">privacy</a>
+        <a href="https://www.spotify.com/cookies-policy">cookies</a>
+        <a href="https://www.spotify.com/accessiability">accessiability</a>
+     
+    </div>
+
+</div>
+
+
+
+    <div class="right">
+        <div class="nav flex">
+            
+            <div class="forprew">
+                <i id="hamburger" class="fa-solid fa-bars"></i>
+                <i  class="fa-solid fa-chevron-left hide1"></i>
+                <i class="fa-solid fa-chevron-right hide2"></i>
+            </div>
+
+            <div class="buttons">
+                <button id="signUp">Sign Up</button>
+                <button id="logIn"> Log in</button>
+            </div>
+
+        </div>
+
+        <div class="headline ">
+            <h2>Spotify Playlist</h2>
+            </div>
+        <div class="cardbox flex wrap">
+        
+            <div class="card" data-folder="music">
+                
+                <img  height="180px" src="https://i.scdn.co/image/ab67706f0000000281722192322800ae99c2ed06" >
+                <h4>Sleep</h4>
+                <p>Gentle Ambient piano to help you fall asleep.</p>
+            </div>
+
+            <div class="card" data-folder="LongDrive">
+                <img  height="180px" src="https://i.scdn.co/image/ab67616d00001e02fd2824249c4df9c5f8aa543c" >
+                <h4>Long Drive (Bollywood Mix)</h4>
+                <p>2023 .Album</p>
+            </div>
+
+            <div class="card" data-folder="allTimeRomance">
+                <img  height="180px" src="	https://i2o.scdn.co/image/ab67706c0000cfa3f25df7041565614681d65e6e" >
+                <h4>All Time Romance</h4>
+                <p>Catch the most beautiful, romantic tracks of all time, in this mushy playlist for the 'love-struck' you. :)</p>
+            </div>
+        
+
+    
+            <div class="card" data-folder="happyVibes">
+                
+                <img  height="180px"  src="https://i.scdn.co/image/ab67706f00000002238ef58581cc536174a680e8" >
+                <h4>Happy Vibes</h4>
+                <p>Bright, sunny, catchy tunes put a smile on your face. Cover </p>
+          </div>
+          <div class="card"  data-folder="sitarMusic">  
+              <img  height="180px" src="https://i.scdn.co/image/ab67616d00001e029df3b3654d67772b6eafbc26" >
+              <h4>Sitar Music</h4>
+              <p>Oriental Music Zone</p>
+          </div>
+          <div class="card" data-folder="desiHits" >
+              <img  height="180px" src="https://i.scdn.co/image/ab67706f0000000217294f13db7a0789ff00a694" >
+              <h4>Desi Hits</h4>
+              <p>Best of South Asian Music.</p>
+          </div>
+    </div>
+
+
+        <div class="loader">
+
+            <div class="songTimerName">
+                <p id="songName"></p>
+                <p id="songTimer"></p>
+            </div>
+
+            <div class="loaderLogo">
+                <div>
+                <i class="fa-solid fa-backward-step"></i>
+                <i id="primeplay" class="fa-play fa-solid"></i>
+                <i class="fa-solid fa-forward-step"></i>
+              </div>
+
+              <div class="volume">
+                <i class="fa-solid fa-volume-high"></i>
+                <input type="range" name="">
+              </div>
+            </div>
+
+            <div class="timeline">
+            </div>
+
+            <div class="dot" style="left: 0%"></div>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
