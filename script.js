@@ -88,7 +88,7 @@ async function playCardSong(e){
  async function getSong(playlist){
      songs=[];
     document.querySelector(".songlist").innerHTML="";
-      let a = await fetch(`http://127.0.0.1:3000/WEB%20DEV/spotify-musicPlayer/${playlist}`);
+      let a = await fetch(`https://jagdish2004.github.io/musicPlayer-/${playlist}`);
      let response= await a.text();
     let div= document.createElement("div");
     div.innerHTML=response;
